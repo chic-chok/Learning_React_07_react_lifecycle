@@ -13,7 +13,7 @@ const toggleParagraphHandler= () => {
   return (
     <div className="app">
       <h1>Hi there!</h1>
-      <Demo show = {false}/>
+      <Demo show = {showParagraph}/>
       <Button onClick={toggleParagraphHandler}> Toggle </Button>
     </div>
   );
